@@ -41,7 +41,7 @@ console.log(isValid);
 // they can be better understood, scaled, and maintained.
 const dontDoThis = ((n1 + n2 + n3 + n4) == 50) && ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
-/* 
+/** 
 
 
 ASSIGNMENT
@@ -68,19 +68,19 @@ console.log(arithChain);
 
 const totalDistance = 1500; //distance from current location to destination
 
-let speed = 55; // chosen MPH
+let speed = 55; //chosen MPH
 
-let mpg = 30;   // miles per gallon used at 55MPH
+let mpg = 30;   //miles per gallon used at 55MPH
 
 const budget = 175; //total amount available to spend over trip
 
-const avgGas = 3; // the average cost per gallon of gas
+const avgGas = 3; //the average cost per gallon of gas
 
-let hoursOfTrip = totalDistance / speed; // a variable to calculate how long trip will take
+let hoursOfTrip = totalDistance / speed; //a variable to calculate how long trip will take
 
-let gallonsNeeded = totalDistance / mpg; // a variable to calculate how many gallons of gas will be needed
+let gallonsNeeded = totalDistance / mpg; //a variable to calculate how many gallons of gas will be needed
 
-let fullFuelCost = avgGas * gallonsNeeded // a variable to calculate how much you'll pay for fuel throughout trip
+let fullFuelCost = avgGas * gallonsNeeded //a variable to calculate how much you'll pay for fuel throughout trip
 
 //log answers to assignment section 2 questions
 console.log(`The trip will require ${Math.floor(gallonsNeeded)} gallons of gas`);
