@@ -44,7 +44,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) && ((n1 % 2) + (n2 % 2) + (n3 % 2
 /* 
 
 
-MY   W   O   R   K
+ASSIGNMENT
 
 
 
