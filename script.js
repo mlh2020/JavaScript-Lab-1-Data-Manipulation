@@ -85,6 +85,6 @@ let fullFuelCost = avgGas * gallonsNeeded // a variable to calculate how much yo
 
 //log answers of assignment questions to console
 console.log(`The trip will require ${Math.floor(gallonsNeeded)} gallons of gas`);
-console.log(`It will cost ${Math.floor(fullFuelCost)} dollars to cover the gas needed for this trip`)
+console.log(`It will cost ${Math.floor(fullFuelCost)} dollars to cover the gas needed for this trip`);
 console.log(`The trip will take about ${Math.floor(hoursOfTrip)} hours, give or take`);
 
