@@ -55,15 +55,14 @@ MY   W   O   R   K
 //Math Problems
 let isDivisBy5 = (n1 % 5 === 0) && (n2 % 5 === 0) && (n3 % 5 === 0) && (n4 % 5 === 0);
 
-console.log(isDivisBy5)
-
 let isFirstBigLast = n1 > n4;
-
-console.log(isFirstBigLast)
 
 let arithChain = ((n1 - n2) * n3) % n4;
 
-console.log(arithChain)
+//log answers to assignment section 1 questions
+console.log(isDivisBy5);
+console.log(isFirstBigLast);
+console.log(arithChain);
 
 //Practical Math
 
@@ -83,7 +82,7 @@ let gallonsNeeded = totalDistance / mpg; // a variable to calculate how many gal
 
 let fullFuelCost = avgGas * gallonsNeeded // a variable to calculate how much you'll pay for fuel throughout trip
 
-//log answers of assignment questions to console
+//log answers to assignment section 2 questions
 console.log(`The trip will require ${Math.floor(gallonsNeeded)} gallons of gas`);
 console.log(`It will cost ${Math.floor(fullFuelCost)} dollars to cover the gas needed for this trip`);
 console.log(`The trip will take about ${Math.floor(hoursOfTrip)} hours, give or take`);
