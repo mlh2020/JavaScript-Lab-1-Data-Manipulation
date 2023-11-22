@@ -40,3 +40,50 @@ console.log(isValid);
 // we break things into small, manageable pieces so that
 // they can be better understood, scaled, and maintained.
 const dontDoThis = ((n1 + n2 + n3 + n4) == 50) && ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
+
+/* 
+
+
+MY   W   O   R   K
+
+
+
+*/
+
+
+
+//Math Problems
+let isDivisBy5 = (n1 % 5 === 0) && (n2 % 5 === 0) && (n3 % 5 === 0) && (n4 % 5 === 0);
+
+console.log(isDivisBy5)
+
+let isFirstBigLast = n1 > n4;
+
+console.log(isFirstBigLast)
+
+let arithChain = ((n1 - n2) * n3) % n4;
+
+console.log(arithChain)
+
+//Practical Math
+
+const totalDistance = 1500;
+
+let speed = 55;
+
+let mpg = 30;
+
+const budget = 175; 
+
+const avgGas = 3;
+
+let hoursOfTrip = totalDistance / speed;
+
+let gallonsNeeded = totalDistance / mpg;
+
+let fullFuelCost = avgGas * gallonsNeeded
+
+console.log(`The trip will require ${Math.floor(gallonsNeeded)} gallons of gas`);
+console.log(`It will cost ${Math.floor(fullFuelCost)} dollars to cover the gas needed for this trip`)
+console.log(`The trip will take about ${Math.floor(hoursOfTrip)} hours, give or take`);
+
