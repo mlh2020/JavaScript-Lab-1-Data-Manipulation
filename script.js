@@ -67,22 +67,23 @@ console.log(arithChain)
 
 //Practical Math
 
-const totalDistance = 1500;
+const totalDistance = 1500; //distance from current location to destination
 
-let speed = 55;
+let speed = 55; // chosen MPH
 
-let mpg = 30;
+let mpg = 30;   // miles per gallon used at 55MPH
 
-const budget = 175; 
+const budget = 175; //total amount available to spend over trip
 
-const avgGas = 3;
+const avgGas = 3; // the average cost per gallon of gas
 
-let hoursOfTrip = totalDistance / speed;
+let hoursOfTrip = totalDistance / speed; // a variable to calculate how long trip will take
 
-let gallonsNeeded = totalDistance / mpg;
+let gallonsNeeded = totalDistance / mpg; // a variable to calculate how many gallons of gas will be needed
 
-let fullFuelCost = avgGas * gallonsNeeded
+let fullFuelCost = avgGas * gallonsNeeded // a variable to calculate how much you'll pay for fuel throughout trip
 
+//log answers of assignment questions to console
 console.log(`The trip will require ${Math.floor(gallonsNeeded)} gallons of gas`);
 console.log(`It will cost ${Math.floor(fullFuelCost)} dollars to cover the gas needed for this trip`)
 console.log(`The trip will take about ${Math.floor(hoursOfTrip)} hours, give or take`);
